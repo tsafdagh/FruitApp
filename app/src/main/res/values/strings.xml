@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fruit App</string>
+    <string name="produit_manger_ou_jetter">Produit jeté ou mangé?</string>
+    <string name="produit_manger">Produit mangé</string>
+    <string name="produit_jeter">Produit Jeté</string>
+    <string name="acheteLe">Acheter le</string>
+    <string name="indiqueQuantite">Indiquez la quantité jetée</string>
+    <string name="pas_de_produit_perimer">Pas de produit qui périme aujourd\'hui</string>
+    <string name="alaveille">A la veille</string>
+</resources>
