@@ -30,7 +30,7 @@ class FruitViewModelTest {
     }
 
     @Test
-    fun `deleteFruit removes the specified fruit from categories`() = runBlockingTest {
+    fun `deleteFruit removes the specified fruit from categories`() = runTest {
         viewModel.createData() // Populate data first
         val initialFruit = viewModel.fruitScreenState.value.categories.first().fruitList.first()
 

@@ -19,10 +19,6 @@ class FruitViewModel : ViewModel() {
     val fruitScreenState: StateFlow<FruitUiState> = _fruitScreenState
 
 
-/*    private val _fruitCategories = MutableLiveData<List<FruitGroup>>()
-    val fruitCategories: LiveData<List<FruitGroup>> = _fruitCategories*/
-
-
     fun onEven(event: FruitEven){
         when(event){
             is FruitEven.GenerateFruitList ->{
